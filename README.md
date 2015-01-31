@@ -22,7 +22,7 @@
 
        $ tar -zxf node-v0.6.5.tar.gz
        
-3. A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para instalar el [Node.js]:
+3. A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:
 
        $ make
        
@@ -61,15 +61,15 @@ Ejecutando el comando con el [Node] nos dará el resultado esperado, imprimirá 
 
 Podemos abrir la consola Node, en donde escribir  instrucciones Javascript:
 
-    En el terminal introducimos:
+En el terminal introducimos:
     
     $ node
 
     > console.log("Hola Mundo");
     
-    He imprimirá "Hola Mundo".
+He imprimirá "Hola Mundo".
     
-    Operadores matemáticos:
+Operadores matemáticos:
     
     > 34534+1212
     35746
