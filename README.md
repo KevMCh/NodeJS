@@ -4,6 +4,8 @@
 
 ---
 
+![](./Imágenes/Portada.jpg)
+
 [Node.js]:(http://nodejs.org/)
 
 **¿Qué es [Node.js]?**
@@ -16,13 +18,16 @@
 
 **Instalación de [Node.js] en Linux**
 
-1. Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
+Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
+
+![](./Imágenes/PrinNodeJS.jpg)
 
 Descomprimimos el archivo descargado,lo podemos hacer manualmente o mediante el siguiente comando:
 
                     $ tar -zxf node-v0.6.5.tar.gz
        
-2. A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:
+A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:
+
 
 
                     $ make
@@ -34,15 +39,22 @@ Descomprimimos el archivo descargado,lo podemos hacer manualmente o mediante el 
 
                     $ apt-get install make
        
-3. Instalamos la aplicación en el sistema:
+Instalamos la aplicación en el sistema:
+
 
 
                     $ sudo make install
-       
-4. Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instalado en nuestro sistema, ya que nos devuelve la versión instalada:
+
+
+![](./Imágenes/FasesIniciales.jpg)
+
+Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instalado en nuestro sistema, ya que nos devuelve la versión instalada:
+
 
 
                     $ node -v
+
+![](./Imágenes/Comprobación.jpg)
 
 ---
 
@@ -86,6 +98,8 @@ Operadores matemáticos:
   >Para cerrar la consola Node tenemos que pulsar dos veces "_Control + C_"
 
 ---
+
+![](./Imágenes/Ej.jpg)
 
 **Bibliografía**
 
