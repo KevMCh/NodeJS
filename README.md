@@ -8,7 +8,7 @@
 
 [Node.js]:(http://nodejs.org/)
 
-**¿Qué es [Node.js]?**
+###**¿Qué es [Node.js]?**
 
 [Node]:(https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/)
 
@@ -16,7 +16,7 @@
 
 ---
 
-**Instalación de [Node.js] en Linux**
+###**Instalación de [Node.js] en Linux**
 
 Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
 
@@ -58,7 +58,7 @@ Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instal
 
 ---
 
-**Ejemplos de uso**
+###**Ejemplos de uso**
 
 * "*Hola Mundo*" por funciones:
 
@@ -101,7 +101,7 @@ Operadores matemáticos:
 
 ![](./Imágenes/Ej.jpg)
 
-**Bibliografía**
+####**Bibliografía**
 
 * Página oficial de [Node.js]: 
 
