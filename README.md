@@ -16,25 +16,31 @@
 
 **Instalación de [Node.js] en Linux**
 
-Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
+1. Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
 
 Descomprimimos el archivo descargado,lo podemos hacer manualmente o mediante el siguiente comando:
 
                     $ tar -zxf node-v0.6.5.tar.gz
        
-A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:
+2. A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:
+
 
                     $ make
        
-      >En el caso de que no tengamos el make instalado tendriamos que ejecutar el comando:
-       
+    
+>En el caso de que no tengamos el make instalado tendriamos que ejecutar el comando:
+
+
+
                     $ apt-get install make
        
-Instalamos la aplicación en el sistema:
+3. Instalamos la aplicación en el sistema:
+
 
                     $ sudo make install
        
-Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instalado en nuestro sistema, ya que nos devuelve la versión instalada:
+4. Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instalado en nuestro sistema, ya que nos devuelve la versión instalada:
+
 
                     $ node -v
 
