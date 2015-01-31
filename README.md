@@ -1,6 +1,6 @@
 ---
 
-        #_Node.js_
+#_Node.js_
 
 ---
 
@@ -21,7 +21,9 @@
 
 Lo primero que tenemos que realizar es ir a la página oficial de [Node.js] y descargar el repositorio git de [Node], para esto clicamos en el botón que pone "*Install*" y se iniciará la descarga.
 
+
 ![](./Imágenes/PrinNodeJS.jpg)
+
 
 Descomprimimos el archivo descargado,lo podemos hacer manualmente o mediante el siguiente comando:
 
@@ -47,7 +49,10 @@ Instalamos la aplicación en el sistema:
                     $ sudo make install
 
 
+
 ![](./Imágenes/FasesIniciales.jpg)
+
+
 
 Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instalado en nuestro sistema, ya que nos devuelve la versión instalada:
 
@@ -55,7 +60,11 @@ Mediante el siguiente comando podemos determinar que ya tenemos el [Node] instal
 
                     $ node -v
 
+
+
 ![](./Imágenes/Comprobación.jpg)
+
+
 
 ---
 
@@ -100,7 +109,12 @@ Operadores matemáticos:
 
 ---
 
+
+
 ![](./Imágenes/Ej.jpg)
+
+
+
 
 ####**Bibliografía**
 
