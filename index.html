@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Node.js by alu0100774665</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Node.js</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/alu0100774665/NodeJS/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/alu0100774665/NodeJS/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/alu0100774665/NodeJS" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <hr>
+
+<h1>
+<a id="nodejs" class="anchor" href="#nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a><em>Node.js</em>
+</h1>
+
+<hr>
+
+<p><img src="./Im%C3%A1genes/Portada.jpg" alt=""></p>
+
+<h3>
+<a id="qué-es-nodejs" class="anchor" href="#qu%C3%A9-es-nodejs" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>¿Qué es Node.js?</strong>
+</h3>
+
+<p>Node es un intérprete Javascript del lado del servidor cuya meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sola una máquina física.</p>
+
+<hr>
+
+<h3>
+<a id="instalación-de-nodejs-en-linux" class="anchor" href="#instalaci%C3%B3n-de-nodejs-en-linux" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Instalación de Node.js en Linux</strong>
+</h3>
+
+<p>Lo primero que tenemos que realizar es ir a la página oficial de Node.js y descargar el repositorio git de Node, para esto clicamos en el botón que pone "<em>Install</em>" y se iniciará la descarga.</p>
+
+<p><img src="./Im%C3%A1genes/PrinNodeJS.jpg" alt=""></p>
+
+<p>Descomprimimos el archivo descargado,lo podemos hacer manualmente o mediante el siguiente comando:</p>
+
+<pre><code>                $ tar -zxf node-v0.6.5.tar.gz
+</code></pre>
+
+<p>A continuación, entramos en la carpeta descomprimida del repositorio y ejecutamos el archivo Makefile, en dicho archivo están definidas las tareas necesarias para compilar el repositorio:</p>
+
+<pre><code>                $ make
+</code></pre>
+
+<blockquote>
+<p>En el caso de que no tengamos el make instalado tendriamos que ejecutar el comando:</p>
+</blockquote>
+
+<pre><code>                $ apt-get install make
+</code></pre>
+
+<p>Instalamos la aplicación en el sistema:</p>
+
+<pre><code>                $ sudo make install
+</code></pre>
+
+<p><img src="./Im%C3%A1genes/FasesIniciales.jpg" alt=""></p>
+
+<p>Mediante el siguiente comando podemos determinar que ya tenemos el Node instalado en nuestro sistema, ya que nos devuelve la versión instalada:</p>
+
+<pre><code>                $ node -v
+</code></pre>
+
+<p><img src="./Im%C3%A1genes/Comprobaci%C3%B3n.jpg" alt=""></p>
+
+<hr>
+
+<h3>
+<a id="ejemplos-de-uso" class="anchor" href="#ejemplos-de-uso" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Ejemplos de uso</strong>
+</h3>
+
+<ul>
+<li>"<em>Hola Mundo</em>" por funciones:</li>
+</ul>
+
+<p>Creamos el fichero <em>HolaMundo.js</em> con el siguiente contenido:</p>
+
+<pre><code>  function decir(palabra) {
+
+     console.log(palabra);   
+  }
+
+  decir("Hola Mundo");
+</code></pre>
+
+<p>Ejecutando el comando con el Node nos dará el resultado esperado, imprimirá "<em>Hola Mundo</em>" por pantalla.</p>
+
+<pre><code>$ node HolaMundo.js
+</code></pre>
+
+<ul>
+<li>Consola Node:</li>
+</ul>
+
+<p>Podemos abrir la consola Node, en donde escribir  instrucciones Javascript:</p>
+
+<p>En el terminal introducimos:</p>
+
+<pre><code>$ node
+
+&gt; console.log("Hola Mundo");
+</code></pre>
+
+<p>He imprimirá "Hola Mundo".</p>
+
+<p>Operadores matemáticos:</p>
+
+<pre><code>&gt; 34534+1212
+35746
+&gt; 12*3
+36
+</code></pre>
+
+<blockquote>
+<p>Para cerrar la consola Node tenemos que pulsar dos veces "<em>Control + C</em>"</p>
+</blockquote>
+
+<hr>
+
+<p><img src="./Im%C3%A1genes/Ej.jpg" alt=""></p>
+
+<h4>
+<a id="bibliografía" class="anchor" href="#bibliograf%C3%ADa" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Bibliografía</strong>
+</h4>
+
+<ul>
+<li>Página oficial de Node.js: </li>
+</ul>
+
+<p><em><a href="http://nodejs.org/">http://nodejs.org/</a></em></p>
+
+<ul>
+<li>Páginas de información: </li>
+</ul>
+
+<p><em><a href="https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/">https://www.ibm.com/developerworks/ssa/opensource/library/os-nodejs/</a></em></p>
+
+<p><em><a href="http://es.wikipedia.org/wiki/Node.js">http://es.wikipedia.org/wiki/Node.js</a></em></p>
+
+<ul>
+<li>Tutoriales:</li>
+</ul>
+
+<p>Libro para principiantes en Node.js por  Manuel Kiessling &amp; Herman a.Junge:</p>
+
+<p><em><a href="http://www.nodebeginner.org/index-es.html">http://www.nodebeginner.org/index-es.html</a></em></p>
+
+<p>Página oficial Nodeschool:</p>
+
+<p><em><a href="http://nodeschool.io/">http://nodeschool.io/</a></em></p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
